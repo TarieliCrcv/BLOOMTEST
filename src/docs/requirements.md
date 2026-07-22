@@ -1,48 +1,81 @@
 # NAVBAR-001
-description: navigation bar buttons and existance
 
-expectation:
-- The navigation bar must be visible on all applicable pages.
+## Description
+
+Global navigation bar functionality and visibility.
+
+## Requirements
+
+- The navigation bar must be available on all applicable pages.
 - The navigation bar must remain accessible during page scrolling.
 - Navigation elements must remain readable across supported screen sizes.
-- Navigation buttons must perform their intended actions.
-- Login and registration options must be visible when the user is logged out.
-- The account option must be visible when the user is logged in.
-- The user must be able to change the application language using the navigation bar.
+- Navigation controls must perform their intended actions.
+- Login and registration options must be available to logged-out users.
+- Account-related navigation must be available to logged-in users.
+- The user must be able to change the application language through the navigation bar.
+- The Collections navigation must provide access to the available fragrance categories.
 
 # CAROUSEL-002
-description: carousel with fragrances
 
-expectation:
-- carousel must load fragrances (whole card with name, inspiration and button)
-- scroll automatically (fast 1-2 seconds each card)
-- under cards dot must go accordingly and after last dot it must return to first
-- click dot 3 and verify scrolls to card 3 
-- click the third navigation dot and verify the third card is displayed.
+## Description
+
+Featured fragrance carousel functionality.
+
+## Requirements
+
+- The carousel must display available fragrance cards.
+- Each fragrance card must display the relevant fragrance information and action controls.
+- The carousel must automatically transition between fragrance cards.
+- The active navigation indicator must correspond to the currently displayed card.
+- Navigation indicators must allow the user to navigate between available cards.
+- The carousel must correctly transition from the final card back to the first card.
+- Selecting a fragrance card must navigate the user to the corresponding product details page.
+
 
 # PDP-003
-description: product details page
 
-expectation: 
-- all container size options must be clickable
-- quanity selector must work properly (with +;- buttons aswell as manual input)
-- add to cart button must open sidewindow
-- add to cart button must add frangrance of selected size and price
-- flacon showcase must redirect to flacon page
-- back to collections button must take to collections page
+## Description
+
+Product Details Page functionality.
+
+## Requirements
+
+- Available fragrance container sizes must be selectable.
+- The user must be able to change the product quantity using the increment control.
+- The user must be able to change the product quantity using the decrement control.
+- The user must be able to enter a quantity manually.
+- The Add to Cart action must open the cart interface.
+- The selected fragrance, size, quantity, and price must be correctly represented in the cart.
+- The flacon showcase must navigate to the corresponding flacon page.
+- The Back to Collections action must navigate to the Collections page.
 
 # COLLECTION-004
-description: collections page
 
-expectation:
-- male female unisex and display all buttons must be clickable
-- upper mentioned buttons must display accordingly
-- frangrance cards must display correct name and inspiration
-- cards must be clickable anywhere and takes you to details page
+## Description
+
+Fragrance collection browsing and filtering.
+
+## Requirements
+
+- The user must be able to select the Male, Female, Unisex, All fragrances category.
+- Selecting a category must display the corresponding fragrances.
+- Fragrance cards must display the correct fragrance name and inspiration.
+- Selecting a fragrance card must navigate to the corresponding Product Details Page.
 
 # SEARCH-005
-description: search system
 
-- search parfume placeholder displayed in collections page search bar
-- search bar must be clickable and can be written in it
-- frangrances can be searched with name aswell as inspiration (full name not required)
+## Description
+
+Fragrance search functionality.
+
+## Requirements
+
+- The search input must be available on the Collections page.
+- The search input must display the intended placeholder.
+- The user must be able to enter search text.
+- Fragrances must be searchable by name.
+- Fragrances must be searchable by inspiration.
+- Partial search terms must return relevant matching fragrances.
+
+# LOGIN-006
+description
