@@ -193,8 +193,6 @@ steps:
 
 expected: should redirect to flacon showcase page
 # TC-PDP-005
-flacon showcase page showing
-
 REQ: PDP-003
 Priority: low
 
@@ -209,12 +207,22 @@ expected: opens cart sidebar with added product (selected size and quantity)
 flacon showcase page showing
 
 REQ: COLLECTION-004
+Priority: high
+
+steps:
+1. on navbar click collections
+2. observe product cards
+
+expected: Fragrance cards display the correct fragrance name and inspiration.
+# TC-COLLECTION-002
+flacon showcase page showing
+
+REQ: COLLECTION-004
 Priority: medium
 
 steps:
 1. on navbar click collections
-2. click random size in "containers" section
-3. change to random quantity
-4. click "add to cart"
+2. change to male, female, unisex and display all option
+3. observe each option state
 
-expected: opens cart sidebar with added product (selected size and quantity)
+expected: the Male, Female, Unisex and All fragrances category changes accroding to option selected

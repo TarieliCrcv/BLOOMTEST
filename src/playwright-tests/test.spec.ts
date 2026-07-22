@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
-  await page.goto('baseURL');
-  expect(URL).toBe('baseURL')
+  await page.goto('/');
+  await expect(page).toHaveURL('/bloomaroma\.ge/');
 });

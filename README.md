@@ -5,3 +5,5 @@ Automation tests are written with Playwright (typescript language). API tests ar
 Agile/Scrum methodology used to simplify management of testing and development and get experience.
 
 Test cases, documentations and etc. can be viewed in "docs" file
+
+to run automated tests type 'npx playwright test'

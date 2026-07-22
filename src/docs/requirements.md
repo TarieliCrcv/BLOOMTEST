@@ -60,7 +60,6 @@ Fragrance collection browsing and filtering.
 - The user must be able to select the Male, Female, Unisex, All fragrances category.
 - Selecting a category must display the corresponding fragrances.
 - Fragrance cards must display the correct fragrance name and inspiration.
-- Selecting a fragrance card must navigate to the corresponding Product Details Page.
 
 # SEARCH-005
 
