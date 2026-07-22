@@ -1,13 +1,14 @@
-## UI
 # NAVBAR-001
 description: navigation bar buttons and existance
 
 expectation:
-- navbar should be visible from every page and on scroll aswell
-- navbar visual should be readable and adaptive to screen sizes
-- all buttons must work correctly
-- login/registration must be visible when logged out and account must be visible when logged in
-- language can be changed using navbar button
+- The navigation bar must be visible on all applicable pages.
+- The navigation bar must remain accessible during page scrolling.
+- Navigation elements must remain readable across supported screen sizes.
+- Navigation buttons must perform their intended actions.
+- Login and registration options must be visible when the user is logged out.
+- The account option must be visible when the user is logged in.
+- The user must be able to change the application language using the navigation bar.
 
 # CAROUSEL-002
 description: carousel with fragrances
@@ -16,7 +17,8 @@ expectation:
 - carousel must load fragrances (whole card with name, inspiration and button)
 - scroll automatically (fast 1-2 seconds each card)
 - under cards dot must go accordingly and after last dot it must return to first
-- dots must equal to frangrances cards quanity and be clickable for scrolling purpose
+- click dot 3 and verify scrolls to card 3 
+- click the third navigation dot and verify the third card is displayed.
 
 # PDP-003
 description: product details page
@@ -43,5 +45,4 @@ description: search system
 
 - search parfume placeholder displayed in collections page search bar
 - search bar must be clickable and can be written in it
-- frangrances can be searched with name aswell as inspiration
-- fragrances can be searched with small mistake in name
+- frangrances can be searched with name aswell as inspiration (full name not required)
